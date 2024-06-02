@@ -1,0 +1,74 @@
+/* HomePage.css */
+/* Custom styles for the footer */
+footer {
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 25px 0;
+    font-size: 0.85em;
+}
+footer a {
+    color: #333;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+footer .container {
+    max-width: 1200px;
+}
+footer h5 {
+    color: #333;
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+footer p {
+    color: #666;
+    margin-bottom: 1em;
+}
+/* Custom styles for adding space between testimonials and footer */
+.testimonial-footer-spacing {
+    margin-bottom: 50px; /* Adjust the value as needed */
+}
+/* Custom styles for the header */
+.header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+}
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.carousel-inner img {
+    height: 400px; /* Set the height you want for your images */
+    object-fit: cover; /* Ensure the images cover the entire area */
+}
+.encabezado {
+    background-color: #343a40;
+}
+.encabezado .navbar-nav .nav-item .nav-link {
+    color: white;
+    font-weight: bold;
+    margin-left: 15px;
+}
+.encabezado .navbar-nav .nav-item .nav-link:hover {
+    color: #d4d4d4;
+}
+.encabezado .navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+.welcome-message {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.welcome-message h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.welcome-message p {
+    font-size: 1.25rem;
+    color: #555;
+}

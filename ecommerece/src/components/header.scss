@@ -1,0 +1,27 @@
+.encabezado {
+    background-color: #343a40;
+}
+
+.encabezado .navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+.encabezado .navbar-nav {
+    margin-left: auto; /* Pushes the links to the right */
+}
+
+.encabezado .navbar-nav .nav-item .nav-link {
+    color: white;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.encabezado .navbar-nav .nav-item .nav-link:hover {
+    color: #d4d4d4;
+}
+
+.carousel {
+    max-width: 800px;
+    margin: 0 auto;
+}
